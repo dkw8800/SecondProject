@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="bot2" layoutX="276.0" layoutY="162.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle2" />
+      <Button id="bot3" layoutX="410.0" layoutY="420.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle3" />
+      <Button id="bot4" layoutX="619.0" layoutY="226.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle4" />
+      <Button id="bot5" layoutX="774.0" layoutY="420.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle5" />
+      <Button id="bot1" layoutX="120.0" layoutY="330.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle1" />
+      <Button id="bot6" layoutX="986.0" layoutY="497.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle6" />
+   </children>
+</AnchorPane>
