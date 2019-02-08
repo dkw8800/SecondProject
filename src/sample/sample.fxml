@@ -14,7 +14,7 @@
             <Button id="bot5" layoutX="792.0" layoutY="215.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle5" />
             <Button id="bot1" layoutX="214.0" layoutY="215.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle1" />
             <Button id="bot6" layoutX="933.0" layoutY="390.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle6" />
-            <DialogPane id="bottlesum" layoutX="148.0" layoutY="536.0" prefHeight="194.0" prefWidth="957.0" />
+            <DialogPane id="bottlesummary" layoutX="148.0" layoutY="536.0" prefHeight="194.0" prefWidth="957.0" />
          </children>
       </AnchorPane>
       <!--AnchorPane prefHeight="800.0" prefWidth="1200.0">

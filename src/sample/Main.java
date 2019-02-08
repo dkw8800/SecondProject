@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.DialogPane;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -19,6 +20,7 @@ public static String[] bottlestats = new String[6];
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Message In A Bottle");
         primaryStage.setScene(new Scene(root, 1200, 800));
+        DialogPane bottlesummary = (DialogPane) root.lookup("bottlesum");
         primaryStage.show();
     }
 
@@ -31,7 +33,7 @@ public static String[] bottlestats = new String[6];
     {
         if(bottlestats[bottlelvl-1].equals("closed"))
         {
-            .getElementById("bottlesum").setHeader("This bottle has been sent off.");
+            DialoG.setHeaderText("This bottle has been sent off.");
         }
         //bottle image opened
         //bottle window opened, side by side - message writer and message rules paper
