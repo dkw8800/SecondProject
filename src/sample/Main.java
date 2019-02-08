@@ -10,25 +10,36 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+public static int bottlelvl;
+public static String[] bottlestats = new String[6];
+
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Message In A Bottle");
         primaryStage.setScene(new Scene(root, 1200, 800));
         primaryStage.show();
-
-        Label label4 = new Label("This is the fourth scene");
-        Button button4 = new Button("Go to scene 1");
-        button4.setOnAction(event -> primaryStage.setScene(scene1));
-        VBox layout4 = new VBox(20);
-        layout4.getChildren().addAll(label4, button4);
-        scene4= new Scene(layout4,1200,800);
-        layout4.setId("s4");
     }
 
 
     public static void main(String[] args) {
         launch(args);
+    }
+
+    public static void openBottle()
+    {
+        if(bottlestats[bottlelvl-1].equals("closed"))
+        {
+            .getElementById("bottlesum").setHeader("This bottle has been sent off.");
+        }
+        //bottle image opened
+        //bottle window opened, side by side - message writer and message rules paper
+    }
+
+    public static void changeBottle()
+    {
+        bottlestats[bottlelvl - 1] = "closed";
+        bottlelvl++;
     }
 }
