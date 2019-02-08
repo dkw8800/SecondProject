@@ -6,7 +6,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane layoutY="6.0" prefHeight="800" prefWidth="1200.0">
+      <AnchorPane id="ingame" layoutY="6.0" prefHeight="800" prefWidth="1200.0">
          <children>
             <Button id="bot2" layoutX="327.0" layoutY="365.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle2" />
             <Button id="bot3" layoutX="510.0" layoutY="145.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Bottle3" />

@@ -18,9 +18,11 @@ public static String[] bottlestats = new String[6];
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        DialogPane bottlesummary = (DialogPane) root.lookup("bottlesum");
+        root.getStylesheets().add("/sample/bottlestyle.css");
         primaryStage.setTitle("Message In A Bottle");
         primaryStage.setScene(new Scene(root, 1200, 800));
-        DialogPane bottlesummary = (DialogPane) root.lookup("bottlesum");
+
         primaryStage.show();
     }
 
@@ -33,7 +35,7 @@ public static String[] bottlestats = new String[6];
     {
         if(bottlestats[bottlelvl-1].equals("closed"))
         {
-            DialoG.setHeaderText("This bottle has been sent off.");
+
         }
         //bottle image opened
         //bottle window opened, side by side - message writer and message rules paper
